@@ -194,21 +194,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Block (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 7700194314177871421, guid: 6957eaf3084eeb9498bcfdf0913d7f20,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.076762185
-      objectReference: {fileID: 0}
-    - target: {fileID: 7700194314177871421, guid: 6957eaf3084eeb9498bcfdf0913d7f20,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.6509434
-      objectReference: {fileID: 0}
-    - target: {fileID: 7700194314177871421, guid: 6957eaf3084eeb9498bcfdf0913d7f20,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.094457015
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6957eaf3084eeb9498bcfdf0913d7f20, type: 3}
 --- !u!4 &279945733 stripped
@@ -224,6 +209,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1061755283, guid: 8cc45615ebac5184eb513b4aa2faee6d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1344035821743500387, guid: 8cc45615ebac5184eb513b4aa2faee6d,
         type: 3}
       propertyPath: m_Name

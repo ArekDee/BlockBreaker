@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3670878401320123776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.977, y: 0.75, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -136,7 +136,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   paddle: {fileID: 0}
   pushX: 1
-  pushY: 18
+  pushY: 20
+  randomFactor: 1
   audioClips:
   - {fileID: 8300000, guid: c806c86076cbeb94684031c4a09291b7, type: 3}
   - {fileID: 8300000, guid: 80258fe4eae50b1439fd73b91fcb7e50, type: 3}

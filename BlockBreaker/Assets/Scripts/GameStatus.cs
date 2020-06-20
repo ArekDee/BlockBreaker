@@ -10,6 +10,8 @@ public class GameStatus : MonoBehaviour
     [SerializeField] int score = 0;
     [SerializeField] int pointsPerBlock = 83;
     [SerializeField] Text scoreText;
+    [SerializeField] bool autoPlay;
+
 
     private void Awake()
     {
@@ -40,5 +42,14 @@ public class GameStatus : MonoBehaviour
     {
         score += pointsPerBlock;
         scoreText.text = score.ToString();
+    }
+
+    public void ResetGame()
+    {
+        Destroy(gameObject);
+    }
+    public bool IsAutoPlayEnabled()
+    {
+        return autoPlay;
     }
 }
